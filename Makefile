@@ -14,6 +14,11 @@ neodax:
 	@echo "Deploying NeoDax contracts..."
 	@make -C $(PRESETS_DIR)/neodax deploy-all
 
+.PHONY: nitrolite
+nitrolite:
+	@echo "Deploying Nitrolite contracts..."
+	@make -C $(PRESETS_DIR)/nitrolite deploy-all
+
 .PHONY: help
 help:
 	@echo "Available commands:"
