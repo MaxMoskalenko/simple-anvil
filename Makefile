@@ -19,6 +19,11 @@ nitrolite:
 	@echo "Deploying Nitrolite contracts..."
 	@make -C $(PRESETS_DIR)/nitrolite deploy-all
 
+.PHONY: eggdrop
+eggdrop:
+	@echo "Deploying EggDrop contracts..."
+	@make -C $(PRESETS_DIR)/eggdrop deploy-all
+
 .PHONY: help
 help:
 	@echo "Available commands:"

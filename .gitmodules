@@ -7,3 +7,6 @@
 [submodule "lib/nitrolite"]
 	path = lib/nitrolite
 	url = https://github.com/erc7824/nitrolite
+[submodule "lib/eggdrop"]
+	path = lib/eggdrop
+	url = git@github.com:layer-3/eggdrop.git
